@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FlickrPhotogallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-09 17:24+0100\n"
+"PO-Revision-Date: 2012-05-09 17:27+0100\n"
+"Last-Translator: Tiziano Basile <tiz.basile@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../include\n"
+
+#: ../FlickrPhotogallery.php:43
+#: ../FlickrPhotogallery.php:44
+msgid "FlickrPhotogallery"
+msgstr "FlickrPhotogallery"
+
+#: ../fpg_widget.php:33
+msgid "This widget shows the last <em>n</em> photos from a Flickr account"
+msgstr "Questo widget mostra le ultime <em>n</em> foto da un account di Flickr"
+
+#: ../fpg_widget.php:36
+msgid "FlickrPhotogallery Widget"
+msgstr "FlickrPhotogallery Widget"
+
+#: ../include/admin_page.php:5
+#: ../include/install.php:30
+msgid "FlickrPhotogallery Settings"
+msgstr "Impostazioni FlickrPhotogallery"
+
+#: ../include/admin_page.php:13
+msgid "Save options"
+msgstr "Salva Opzioni"
+
+#: ../include/install.php:17
+msgid "See my last shoots"
+msgstr "Guarda i miei ultimi scatti"
+
+#: ../include/install.php:43
+msgid "Set the default options for the plugin"
+msgstr "Imposta le opzioni di default per il plugin"
+
+#: ../include/install.php:53
+msgid "Stream"
+msgstr "Sorgente"
+
+#: ../include/install.php:58
+msgid "Select the default stream from where to retrieve images"
+msgstr "Seleziona la sorgente di default da cui recuperare le immagini"
+
+#: ../include/install.php:66
+msgid "Flickr Id"
+msgstr "Flickr Id"
+
+#: ../include/install.php:71
+msgid "Insert the default Flickr id to use"
+msgstr "Inserisci il Flickr Id da usare di default"
+
+#: ../include/install.php:79
+msgid "Photoset Id"
+msgstr "Photoset Id"
+
+#: ../include/install.php:84
+msgid "Insert the id of the photoset you want to show by default"
+msgstr "Inserisci l'ID del photoset che vuoi mostrare di default"
+
+#: ../include/install.php:92
+msgid "Number of Images to show"
+msgstr "Numero di immagini da visualizzare"
+
+#: ../include/install.php:97
+msgid "Insert the numer of images you want to show by default"
+msgstr "Inserisci il numero di immagini che vuoi visualizzare di default"
+
+#: ../include/install.php:105
+msgid "Caption"
+msgstr "Didascalia"
+
+#: ../include/install.php:110
+msgid "Insert the caption you want to show by default before images"
+msgstr "Inserisci la didascalia di default che vuoi mostrare prima delle immagini"
+
+#: ../include/install.php:118
+msgid "Show images as"
+msgstr "Mostra immagini come"
+
+#: ../include/install.php:123
+msgid "Insert the way you want to show images by default"
+msgstr "Inserisci il modo in cui vuoi visualizzare le immagini"
+
+#: ../include/install.php:131
+msgid "Use Fancybox"
+msgstr "Usa Fancybox"
+
+#: ../include/install.php:136
+msgid "Select to use Fancybox effects on image click or to redirect the visitor to the related Flickr url"
+msgstr "Scegli se vuoi utilizzare l'effetto Fancybox al click sulle immagini o se vuoi indirizzare il visitatore alla relativa pagina su Flickr"
+
+#: ../include/install.php:144
+msgid "Image Width"
+msgstr "Dimensione Immagini"
+
+#: ../include/install.php:149
+msgid "Select the default slideshow width in pixels (don't use \"px\")"
+msgstr "Seleziona la grandezza di default  in pixel per lo slideshow (non usare il suffisso \"px\")"
+
+#: ../include/install.php:157
+msgid "Border Color"
+msgstr "Colore dei Bordi"
+
+#: ../include/install.php:162
+msgid "Select the default border color for images (it will be the slideshow border color if you selected the slideshow view)"
+msgstr "Seleziona il colore di default per i bordi (se hai selezionato la vista slideshow, questo sarà il colore del bordo dello slideshow)"
+
+#: ../include/install.php:176
+#: ../include/widget/widget_admin.php:22
+msgid "Public"
+msgstr "Pubblica"
+
+#: ../include/install.php:177
+#: ../include/widget/widget_admin.php:23
+msgid "User"
+msgstr "Utente"
+
+#: ../include/install.php:178
+#: ../include/widget/widget_admin.php:24
+msgid "Photoset"
+msgstr "Photoset"
+
+#: ../include/install.php:179
+#: ../include/widget/widget_admin.php:25
+msgid "Group"
+msgstr "Gruppo"
+
+#: ../include/install.php:196
+#: ../include/widget/widget_admin.php:36
+msgid "Find your ID"
+msgstr "Trova il tuo ID"
+
+#: ../include/install.php:252
+#: ../include/widget/widget_admin.php:63
+msgid "List"
+msgstr "Lista"
+
+#: ../include/install.php:253
+#: ../include/widget/widget_admin.php:64
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: ../include/widget/widget_admin.php:10
+msgid "Title:"
+msgstr "Titolo:"
+
+#: ../include/widget/widget_admin.php:18
+msgid "Stream:"
+msgstr "Sorgente"
+
+#: ../include/widget/widget_admin.php:27
+msgid "You can show public images or from a specific user, photoset or group"
+msgstr "Puoi visualizzare immagini pubbliche, da uno specifico utente, photoset o gruppo"
+
+#: ../include/widget/widget_admin.php:32
+msgid "Your Flickr User Id:"
+msgstr "Il tuo Flickr Id"
+
+#: ../include/widget/widget_admin.php:41
+msgid "Your Photoset Id:"
+msgstr "L'id del tuo photoset"
+
+#: ../include/widget/widget_admin.php:45
+msgid "Insert the Id of your Photoset here"
+msgstr "Inserisci l'Id del tuo Photoset"
+
+#: ../include/widget/widget_admin.php:50
+msgid "Number of Images to Show:"
+msgstr "Numero di immagini da visualizzare"
+
+#: ../include/widget/widget_admin.php:54
+msgid "Insert the number of images you want to show"
+msgstr "Inserisci il numero di immagini che vuoi visualizzare"
+
+#: ../include/widget/widget_admin.php:59
+msgid "Show images as:"
+msgstr "Mostra immagini come:"
+
+#: ../include/widget/widget_admin.php:70
+msgid "Slideshow Width:"
+msgstr "Larghezza Slideshow:"
+
+#: ../include/widget/widget_admin.php:78
+msgid "Border color"
+msgstr "Colore dei Bordi"
+
+#: ../include/widget/widget_admin.php:87
+msgid "Use fancybox"
+msgstr "Usa Fancybox"
+

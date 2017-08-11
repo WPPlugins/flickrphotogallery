@@ -1,0 +1,57 @@
+/********** GENERAL STYLES **********/
+h3.FPG_widgetTitle{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 2em;
+}
+
+
+
+/********** LIST STYLES **********/
+div.FPG_widgetContainerList{ margin: 20px 0;}
+div.FPG_widgetContainerList ul.FPG_listUl{list-style-type: none !important; /*max-width: 368px;*/}
+div.FPG_widgetContainerList ul.FPG_listUl li.FPG_widgetImageContainerList
+{
+    float:left;
+    width:75px !important;
+    height:75px;
+    margin: 0 10px 10px 0;
+    padding:0px;
+    border: 2px solid #CCC;
+    position:relative;
+}
+div.FPG_widgetContainerList p{margin-left: 5px;}
+div.FPG_widgetContainerList li.FPG_widgetImageContainerList a{}
+div.FPG_widgetContainerList li.FPG_widgetImageContainerList a img{
+   max-width:none !important;  
+}
+
+/********** SLIDESHOW STYLES **********/
+div.FPG_widgetContainerSlide{
+   /*max-width: 240px;
+   max-height: 159px;*/
+   overflow:hidden;
+   position: relative;
+   border: 1px solid #CCC;  
+}
+div.FPG_widgetContainerSlide ul.FPG_slideUl{
+    margin: 0 !important;
+    /*height:240px;*/
+    position:relative;
+}
+
+div.FPG_widgetContainerSlide ul.FPG_slideUl li.FPG_widgetImageContainerSlide{
+   list-style-type: none;
+   margin:0;
+   padding:0;
+   /*width:240px;*/
+   float:left;
+}
+div.FPG_widgetContainerSlide ul.FPG_slideUl li.FPG_widgetImageContainerSlide a{}
+div.FPG_widgetContainerSlide ul.FPG_slideUl li.FPG_widgetImageContainerSlide a img{
+    /*min-width: 240px;*/
+    float:left;
+    display:block;
+}
+
